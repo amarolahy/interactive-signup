@@ -1,0 +1,11 @@
+coverage
+
+# IDE folders
+.vscode
+.idea
+
+# node
+node_modules
+
+# compiled files
+dist
