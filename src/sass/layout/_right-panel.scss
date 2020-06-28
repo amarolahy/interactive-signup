@@ -1,9 +1,27 @@
 .right-panel {
   width: 65%;
   padding: 3% 6%;
+  padding-right: 12%;
   color: $light-black;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .navigation {
+    position: absolute; 
+    top: 3%;
+    left: 6%;
+  }
+
   .signup {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+
+    height: 30%;
+    overflow: hidden;
     & > div {
       margin-bottom: 10%;
     }
