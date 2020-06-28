@@ -1,0 +1,23 @@
+.btn {
+  padding: 12px 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+
+.btn-primary {
+  background: $primary;
+  color: $white;
+
+  &:active,
+  &:hover {
+    background: rgba($color: $blue, $alpha: 0.9);
+  }
+}
