@@ -53,7 +53,13 @@
     // padding: 10% 0;
     height: 40%;
     overflow: scroll;
+    -ms-overflow-style: none;
     scrollbar-width: none;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
     & > div {
       margin-bottom: 10%;
     }
