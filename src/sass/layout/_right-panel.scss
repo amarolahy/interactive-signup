@@ -1,4 +1,11 @@
 .right-panel {
-  padding: 3%;
+  width: 65%;
+  padding: 3% 6%;
   color: $light-black;
+
+  .signup {
+    & > div {
+      margin-bottom: 10%;
+    }
+  }
 }
