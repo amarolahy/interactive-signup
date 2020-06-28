@@ -28,6 +28,7 @@
       border-radius: 50%;
       top: 35%;
       right: -20%;
+      box-shadow: 0 0 0 1px $white;
     }
 
     &::before {
@@ -37,7 +38,7 @@
       width: 25%;
       height: 25%;
       border-radius: 50%;
-      top: 35%;
+      top: 37%;
       right: -50%;
     }
   }
