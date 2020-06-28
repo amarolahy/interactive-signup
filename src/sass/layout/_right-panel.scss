@@ -49,19 +49,26 @@
     text-align: justify;
 
     // filter: opacity(linear-gradient(to top, 10px));
-    padding: 10% 0;
-    height: 50%;
-    overflow: hidden;
+    // padding: 10% 0;
+    height: 40%;
+    overflow: scroll;
+    scrollbar-width: none;
     & > div {
       margin-bottom: 10%;
     }
 
     .opacity {
+      position: sticky;
+      top: -25%;
       width: 100%;
-      height: 30%;
+      height: 45%;
       margin: 0;
       background: $white;
       opacity: 0.8;
+    }
+
+    .congratulations {
+      margin-bottom: 10%;
     }
   }
 }
