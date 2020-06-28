@@ -31,3 +31,10 @@ const onValidPassword = () => {
 nameInput.addEventListener('focusout', onValidNameAndEmail);
 emailInput.addEventListener('focusout', onValidNameAndEmail);
 passwordInput.addEventListener('focusout', onValidPassword);
+
+document.addEventListener('keydown', (ev) => {
+  if (13 === ev.keyCode) {
+    onValidNameAndEmail();
+    onValidPassword();
+  }
+})
