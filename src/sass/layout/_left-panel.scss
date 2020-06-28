@@ -1,8 +1,46 @@
 .left-panel {
+  position: relative;
   width: 40%;
   height: 100%;
   background: linear-gradient(to top right, $blue, rgba($blue, 0.9));
   border-radius: 10px;
-  padding: 3%;
+  padding: 3% 4%;
   color: $white;
+
+  .signup-description {
+    position: relative;
+    top: 22%;
+    h1 {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: $light-white;
+      line-height: 1.8rem;
+    }
+  }
+
+  .login {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78%;
+    background: rgba($color: lighten($blue, 10), $alpha: 0.3);
+    border-radius: 10px;
+    padding: 6%;
+
+    p {
+      font-size: 0.9rem;
+      color: $light-white;
+      margin-bottom: 4%;
+    }
+
+    a {
+      text-decoration: none;
+      color: $white;
+      font-weight: bold;
+    }
+  }
 }
