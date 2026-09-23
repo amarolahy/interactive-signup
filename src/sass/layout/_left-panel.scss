@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use '../colors/colors' as *;
+
 .left-panel {
   position: relative;
   width: 35%;
@@ -28,7 +31,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 78%;
-    background: rgba($color: lighten($blue, 10), $alpha: 0.3);
+    background: rgba($color: color.adjust($blue, $lightness: 10%), $alpha: 0.3);
     border-radius: 10px;
     padding: 6%;
 
